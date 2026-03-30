@@ -1,141 +1,24 @@
 <!DOCTYPE html>
-<html lang="ja">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lumière & Leather | 究極のレザーシューズ</title>
-    <meta name="description" content="最高級のレザーと熟練の職人技で作られる、Lumière & Leather のプレミアムシューズコレクション。">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <header class="header">
-        <div class="container header-inner">
-            <a href="#" class="logo">Lumière & Leather</a>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li><a href="#about" class="nav-link">Concept</a></li>
-                    <li><a href="#collection" class="nav-link">Collection</a></li>
-                    <li><a href="#company" class="nav-link">Company</a></li>
-                </ul>
-            </nav>
-            <a href="#collection" class="btn btn-outline">Store</a>
+    <header>
+        <div class="hero" style="background-image: url('hero_bg_1774844764136.png');">
+            <h1>Welcome to My Website</h1>
         </div>
     </header>
-
     <main>
-        <section class="hero" id="home">
-            <div class="hero-bg" style="background-image: url('assets/hero_bg_1774844764136.png');"></div>
-            <div class="hero-overlay"></div>
-            <div class="container hero-content fade-in-up">
-                <span class="subtitle">Premium Men's Footwear</span>
-                <h1 class="title">歩みを変える、<br>至高の一足。</h1>
-                <p class="desc">選び抜かれた最高級レザーと、熟練の職人技が生み出す芸術品。あなたの日常に、本物の輝きを。</p>
-                <div class="hero-actions">
-                    <a href="#collection" class="btn btn-primary">コレクションを見る</a>
-                    <a href="#about" class="btn btn-text">ブランドについて <span class="arrow">→</span></a>
-                </div>
-            </div>
-        </section>
-
-        <section class="about section" id="about">
-            <div class="container about-inner">
-                <div class="about-text fade-in-up">
-                    <h2 class="section-title">Craftsmanship</h2>
-                    <p>私たちの靴は、単なる履物ではありません。一足一足が、何百もの工程を経て丁寧に作り上げられる芸術作品です。革の選定から、カッティング、縫製、そして磨き上げまで、すべてに妥協はありません。</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="collection section" id="collection">
-            <div class="container">
-                <div class="section-header fade-in-up">
-                    <h2 class="section-title">The Collection</h2>
-                    <p>流行に左右されない、普遍的な美しさ。</p>
-                </div>
-                <div class="grid">
-                    <div class="card fade-in-up" style="transition-delay: 0.1s;">
-                        <div class="card-image">
-                            <img src="assets/shoe_1_1774844785787.png" alt="Classic Oxford">
-                        </div>
-                        <div class="card-content">
-                            <h3>Classic Oxford</h3>
-                            <p>最もフォーマルで洗練された一足。</p>
-                            <span class="price">¥128,000</span>
-                        </div>
-                    </div>
-                    <div class="card fade-in-up" style="transition-delay: 0.2s;">
-                        <div class="card-image">
-                            <img src="assets/shoe_2_1774844822163.png" alt="Penny Loafer">
-                        </div>
-                        <div class="card-content">
-                            <h3>Penny Loafer</h3>
-                            <p>抜け感のあるエレガンス。</p>
-                            <span class="price">¥98,000</span>
-                        </div>
-                    </div>
-                    <div class="card fade-in-up" style="transition-delay: 0.3s;">
-                        <div class="card-image">
-                            <img src="assets/shoe_3_1774844840851.png" alt="Chelsea Boot">
-                        </div>
-                        <div class="card-content">
-                            <h3>Chelsea Boot</h3>
-                            <p>スマートでモダンなシルエット。</p>
-                            <span class="price">¥145,000</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="company section" id="company">
-            <div class="container">
-                <div class="section-header fade-in-up">
-                    <h2 class="section-title">Company</h2>
-                    <p>会社情報</p>
-                </div>
-                <div class="company-info fade-in-up">
-                    <dl class="company-list">
-                        <dt>会社名</dt>
-                        <dd>株式会社 Lumière & Leather</dd>
-                        <dt>設立</dt>
-                        <dd>2026年4月1日</dd>
-                        <dt>代表取締役</dt>
-                        <dd>むじろう</dd>
-                        <dt>所在地</dt>
-                        <dd>〒100-0000 東京都千代田区丸の内1-1-1<br>レザービルディング 10F</dd>
-                        <dt>事業内容</dt>
-                        <dd>紳士靴の製造・販売・修理</dd>
-                    </dl>
-                </div>
-            </div>
+        <section>
+            <h2>Featured Products</h2>
+            <img src="shoe_1.png" alt="Shoe 1">
+            <img src="shoe_2.png" alt="Shoe 2">
         </section>
     </main>
-
-    <footer class="footer">
-        <div class="container footer-inner">
-            <div class="footer-brand">
-                <h2>Lumière & Leather</h2>
-                <p>Tokyo, Japan</p>
-            </div>
-            <div class="footer-links">
-                <a href="#">Instagram</a>
-                <a href="#">Twitter</a>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Lumière & Leather. All rights reserved.</p>
-        </div>
+    <footer>
+        <p>&copy; 2026 My Website</p>
     </footer>
 </body>
-
 </html>
